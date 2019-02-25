@@ -1,0 +1,166 @@
+:root {
+	--bgcolor: #1d1f21;
+	/*--h1-font: "Times New Roman", Times, serif;
+	--header-font: Georgia, serif;
+	--font: "Times New Roman", Times, serif;*/
+	--h1-font: "Courier New", Courier, monospace;
+	--header-font: "Courier New", Courier, monospace;
+	--font: "Courier New", Courier, monospace;
+	--line-height: 1.15;
+	
+	--content-bgcolor: #1d1f21;
+	--content-width: 960px;
+	--content-margin: 15px;
+	--content-text-width: 930px;
+	
+	--spacing: 10px;
+	
+	--font-color: #c5c8c6;
+	--header-color: #cc6666;
+	--link-color: #81a2be;
+}
+
+
+body {
+	background-color: var(--bgcolor);
+	font-family: var(--font);
+}
+
+a  { 
+	color: var(--link-color); 
+	text-decoration: none; 
+}
+a:hover { text-decoration: underline; }
+
+.anchor {
+	/* spacing same as topblock height */
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+
+p  {
+	margin-top:    var(--spacing);
+	margin-bottom: 0px;
+	color: var(--font-color);
+}
+ul {
+	margin-top: var(--spacing);
+	margin-bottom: var(--spacing);
+	list-style-type: circle;
+}
+li {
+	margin-top: var(--spacing);
+	color: var(--font-color);
+}
+
+h2, h3, h4 {
+	font-family: var(--header-font);
+	font-weight: normal;
+	color: var(--header-color);
+}
+
+h1 {
+	font-weight: normal;
+	font-family: var(--h1-font);
+	font-size: 56px;
+	/*color: #000000; */
+	color: #c5c8c6;
+}
+h2 { margin-bottom: 10px;
+	font-family: var(--header-font);
+}
+h3 { 
+	margin-top: 12px;
+	margin-bottom: 0px;  
+	font-style: italic;
+	font-family: var(--header-font);
+	color: #f0c674;
+}
+i {
+	color: #f0c674;
+}
+q {
+	color: #cc6666;
+}
+
+/* 2. Body classes, in order of appearance */
+
+.wrapper {
+	position:static;
+	line-height: var(--line-height);
+	color: var(--font-color);
+}
+
+.topblock {
+	margin: auto;
+	width: var(--content-width);
+} 
+.topcontent {
+	position: fixed;
+	width: var(--content-width);
+	height: 90px;
+	top: -4px;
+	
+	background-color: var(--bgcolor);
+	z-index: 1;
+	
+	/*border-bottom: 1px solid #F0F0F0;*/
+}
+
+#name {
+	position: absolute;
+	top: -30px;
+	left: 25px;
+}
+#menubar {
+	font-family: var(--font);
+	position: absolute;
+	top: 70px;
+	left: 25px;
+	word-spacing: 20px;
+}
+
+
+
+.centerblock {
+	margin: auto;
+	width: var(--content-width);
+	background-color: var(--content-bgcolor);
+}
+.maintext {
+	position: relative;
+	margin-left: var(--content-margin);
+	padding-top: 75px;
+	width: var(--content-text-width);
+}
+.mainsection{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+#mephoto {
+	position: absolute;
+	right: 10px;
+	top: 70px;
+}
+.lalign {
+	text-align: left;
+}
+#copy {
+	text-align: center;
+	font-size: 10pt;
+	color: var(--font-color);
+}
+
+
+
+.bottomblock {
+	margin: auto;
+	width: var(--content-width);
+	height: 200px;
+	/*height: calc(100vh - 75px);*/
+	
+	/*border-top: 1px solid #F0F0F0;*/
+	padding-top: 5px;
+} 
