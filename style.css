@@ -158,9 +158,7 @@ q {
 .bottomblock {
 	margin: auto;
 	width: var(--content-width);
-	height: 200px;
-	/*height: calc(100vh - 75px);*/
-	
-	/*border-top: 1px solid #F0F0F0;*/
+	height: calc(100vh - 100px);
+	border-top: 1px solid #c5c8c6;
 	padding-top: 5px;
 } 
