@@ -36,7 +36,7 @@ a:hover { text-decoration: underline; }
 	/* spacing same as topblock height */
     display: block;
     position: relative;
-    top: -80px;
+    top: -100px;
     visibility: hidden;
 }
 
@@ -100,11 +100,12 @@ q {
 .topcontent {
 	position: fixed;
 	width: var(--content-width);
-	height: 90px;
+	height: 100px;
 	top: -4px;
 	
 	background-color: var(--bgcolor);
 	z-index: 1;
+	border-bottom: 1px solid #c5c8c6;
 	
 	/*border-bottom: 1px solid #F0F0F0;*/
 }
@@ -158,7 +159,7 @@ q {
 .bottomblock {
 	margin: auto;
 	width: var(--content-width);
-	height: calc(100vh - 100px);
+	height: calc(100vh - 110px);
 	border-top: 1px solid #c5c8c6;
 	padding-top: 5px;
 } 
