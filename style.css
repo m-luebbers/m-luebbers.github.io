@@ -17,7 +17,7 @@
 	
 	--font-color: #c5c8c6;
 	--header-color: #cc6666;
-	--link-color: #81a2be;
+	--link-color: lightskyblue;
 }
 
 
@@ -65,7 +65,6 @@ h1 {
 	font-weight: normal;
 	font-family: var(--h1-font);
 	font-size: 56px;
-	/*color: #000000; */
 	color: #c5c8c6;
 }
 h2 { margin-bottom: 10px;
@@ -153,8 +152,6 @@ q {
 	font-size: 10pt;
 	color: var(--font-color);
 }
-
-
 
 .bottomblock {
 	margin: auto;
