@@ -3,9 +3,13 @@
 	/*--h1-font: "Times New Roman", Times, serif;
 	--header-font: Georgia, serif;
 	--font: "Times New Roman", Times, serif;*/
-	--h1-font: "Courier New", Courier, monospace;
+	/*--h1-font: "Courier New", Courier, monospace;
 	--header-font: "Courier New", Courier, monospace;
 	--font: "Courier New", Courier, monospace;
+	--line-height: 1.15;*/
+	--h1-font: "Lucida Sans Typewriter", "Courier New", Courier, monospace;
+	--header-font: "Lucida Sans Typewriter", "Courier New", Courier, monospace;
+	--font: "Lucida Sans Typewriter", "Courier New", Courier, monospace;
 	--line-height: 1.15;
 	
 	--content-bgcolor: #1d1f21;
@@ -64,7 +68,7 @@ h2, h3, h4 {
 h1 {
 	font-weight: normal;
 	font-family: var(--h1-font);
-	font-size: 56px;
+	font-size: 52px;
 	color: #c5c8c6;
 }
 h2 { margin-bottom: 10px;
