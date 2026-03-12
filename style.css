@@ -24,7 +24,6 @@
 	--link-color: lightskyblue;
 }
 
-
 body {
 	background-color: var(--bgcolor);
 	font-family: var(--font);
@@ -144,10 +143,18 @@ q {
 	margin-bottom: 25px;
 }
 #mephoto {
-	position: absolute;
-	right: 10px;
-	top: 70px;
+    position: absolute;
+    right: 25px;
+    top: 100px;
+    width: 150px;
+    border: 1px solid #373b41;
+    padding: 4px;
+    background-color: #282a2e;
+    border-radius: 2px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    z-index: 0;
 }
+
 .lalign {
 	text-align: left;
 }
